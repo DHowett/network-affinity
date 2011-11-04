@@ -1,0 +1,7 @@
+{
+title = "Network Affinity";
+items = (
+{ cell=PSGroupCell; },
+{ cell=PSLinkListCell; label="Network Affinity"; detail="PSListItemsController"; valuesDataSource="networkAffinityValues:"; titlesDataSource="networkAffinityTitles:"; get="getNetworkAffinity:"; set="setNetworkAffinity:forSpecifier:";},
+);
+}

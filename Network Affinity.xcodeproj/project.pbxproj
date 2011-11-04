@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA3DE8AD167687270086FF39 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3DE8AC167687270086FF39 /* Default-568h@2x.png */; };
+		DA3DE8B0167687830086FF39 /* Default@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3DE8AE167687830086FF39 /* Default@2x~iphone.png */; };
+		DA3DE8B1167687830086FF39 /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3DE8AF167687830086FF39 /* Default~iphone.png */; };
+		DA3DE8B3167689B60086FF39 /* Network Affinity.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA3DE8B2167689B60086FF39 /* Network Affinity.plist */; };
+		DACCACB21464A150000664E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DACCACB11464A150000664E3 /* UIKit.framework */; };
+		DACCACB41464A150000664E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DACCACB31464A150000664E3 /* Foundation.framework */; };
+		DACCACB61464A150000664E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DACCACB51464A150000664E3 /* CoreGraphics.framework */; };
+		DACCACBC1464A150000664E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DACCACBA1464A150000664E3 /* InfoPlist.strings */; };
+		DACCACBE1464A150000664E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DACCACBD1464A150000664E3 /* main.m */; };
+		DACCACC21464A150000664E3 /* DHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DACCACC11464A150000664E3 /* DHAppDelegate.m */; };
+		DACCACC91464A285000664E3 /* Preferences.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DACCACC81464A285000664E3 /* Preferences.framework */; };
+		DACCACD31464A2BB000664E3 /* DHNARootController.m in Sources */ = {isa = PBXBuildFile; fileRef = DACCACD21464A2BB000664E3 /* DHNARootController.m */; };
+		DACCACD61464A3F6000664E3 /* DHNAListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DACCACD51464A3F5000664E3 /* DHNAListController.m */; };
+		DACCACDA1464A8A0000664E3 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DACCACD91464A8A0000664E3 /* CoreTelephony.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA3DE8AC167687270086FF39 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
+		DA3DE8AE167687830086FF39 /* Default@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x~iphone.png"; path = "Resources/Default@2x~iphone.png"; sourceTree = "<group>"; };
+		DA3DE8AF167687830086FF39 /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default~iphone.png"; path = "Resources/Default~iphone.png"; sourceTree = "<group>"; };
+		DA3DE8B2167689B60086FF39 /* Network Affinity.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "Network Affinity.plist"; path = "Resources/Network Affinity.plist"; sourceTree = "<group>"; };
+		DA3DE8B4167689F70086FF39 /* PSController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PSController.h; path = Preferences/PSController.h; sourceTree = "<group>"; };
+		DA3DE8B5167689F70086FF39 /* PSListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PSListController.h; path = Preferences/PSListController.h; sourceTree = "<group>"; };
+		DA3DE8B6167689F70086FF39 /* PSRootController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PSRootController.h; path = Preferences/PSRootController.h; sourceTree = "<group>"; };
+		DA3DE8B7167689F70086FF39 /* PSSpecifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PSSpecifier.h; path = Preferences/PSSpecifier.h; sourceTree = "<group>"; };
+		DA3DE8B8167689F70086FF39 /* PSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PSViewController.h; path = Preferences/PSViewController.h; sourceTree = "<group>"; };
+		DA3DE8B9167689F70086FF39 /* PSViewControllerOffsetProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PSViewControllerOffsetProtocol.h; path = Preferences/PSViewControllerOffsetProtocol.h; sourceTree = "<group>"; };
+		DACCACAD1464A150000664E3 /* Network Affinity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Network Affinity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACCACB11464A150000664E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DACCACB31464A150000664E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DACCACB51464A150000664E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DACCACB91464A150000664E3 /* Network Affinity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Network Affinity-Info.plist"; sourceTree = "<group>"; };
+		DACCACBB1464A150000664E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DACCACBD1464A150000664E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DACCACBF1464A150000664E3 /* Network Affinity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Network Affinity-Prefix.pch"; sourceTree = "<group>"; };
+		DACCACC01464A150000664E3 /* DHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHAppDelegate.h; sourceTree = "<group>"; };
+		DACCACC11464A150000664E3 /* DHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHAppDelegate.m; sourceTree = "<group>"; };
+		DACCACC81464A285000664E3 /* Preferences.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Preferences.framework; path = System/Library/PrivateFrameworks/Preferences.framework; sourceTree = SDKROOT; };
+		DACCACD11464A2BB000664E3 /* DHNARootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHNARootController.h; sourceTree = "<group>"; };
+		DACCACD21464A2BB000664E3 /* DHNARootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHNARootController.m; sourceTree = "<group>"; };
+		DACCACD41464A3F5000664E3 /* DHNAListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHNAListController.h; sourceTree = "<group>"; };
+		DACCACD51464A3F5000664E3 /* DHNAListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHNAListController.m; sourceTree = "<group>"; };
+		DACCACD91464A8A0000664E3 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DACCACAA1464A150000664E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACCACB21464A150000664E3 /* UIKit.framework in Frameworks */,
+				DACCACB41464A150000664E3 /* Foundation.framework in Frameworks */,
+				DACCACB61464A150000664E3 /* CoreGraphics.framework in Frameworks */,
+				DACCACC91464A285000664E3 /* Preferences.framework in Frameworks */,
+				DACCACDA1464A8A0000664E3 /* CoreTelephony.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA3DE8BA16768A0B0086FF39 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA3DE8AC167687270086FF39 /* Default-568h@2x.png */,
+				DA3DE8AE167687830086FF39 /* Default@2x~iphone.png */,
+				DA3DE8AF167687830086FF39 /* Default~iphone.png */,
+				DA3DE8B2167689B60086FF39 /* Network Affinity.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DACCACA21464A150000664E3 = {
+			isa = PBXGroup;
+			children = (
+				DACCACB71464A150000664E3 /* Network Affinity */,
+				DACCACB01464A150000664E3 /* Frameworks */,
+				DACCACAE1464A150000664E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DACCACAE1464A150000664E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DACCACAD1464A150000664E3 /* Network Affinity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DACCACB01464A150000664E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DACCACD01464A294000664E3 /* Preferences */,
+				DACCACD91464A8A0000664E3 /* CoreTelephony.framework */,
+				DACCACC81464A285000664E3 /* Preferences.framework */,
+				DACCACB11464A150000664E3 /* UIKit.framework */,
+				DACCACB31464A150000664E3 /* Foundation.framework */,
+				DACCACB51464A150000664E3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DACCACB71464A150000664E3 /* Network Affinity */ = {
+			isa = PBXGroup;
+			children = (
+				DACCACC01464A150000664E3 /* DHAppDelegate.h */,
+				DACCACC11464A150000664E3 /* DHAppDelegate.m */,
+				DACCACD11464A2BB000664E3 /* DHNARootController.h */,
+				DACCACD21464A2BB000664E3 /* DHNARootController.m */,
+				DACCACD41464A3F5000664E3 /* DHNAListController.h */,
+				DACCACD51464A3F5000664E3 /* DHNAListController.m */,
+				DA3DE8BA16768A0B0086FF39 /* Resources */,
+				DACCACB81464A150000664E3 /* Supporting Files */,
+			);
+			path = "Network Affinity";
+			sourceTree = "<group>";
+		};
+		DACCACB81464A150000664E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DACCACB91464A150000664E3 /* Network Affinity-Info.plist */,
+				DACCACBA1464A150000664E3 /* InfoPlist.strings */,
+				DACCACBD1464A150000664E3 /* main.m */,
+				DACCACBF1464A150000664E3 /* Network Affinity-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DACCACD01464A294000664E3 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				DA3DE8B4167689F70086FF39 /* PSController.h */,
+				DA3DE8B5167689F70086FF39 /* PSListController.h */,
+				DA3DE8B6167689F70086FF39 /* PSRootController.h */,
+				DA3DE8B7167689F70086FF39 /* PSSpecifier.h */,
+				DA3DE8B8167689F70086FF39 /* PSViewController.h */,
+				DA3DE8B9167689F70086FF39 /* PSViewControllerOffsetProtocol.h */,
+			);
+			name = Preferences;
+			path = "Network Affinity";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DACCACAC1464A150000664E3 /* Network Affinity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DACCACC51464A150000664E3 /* Build configuration list for PBXNativeTarget "Network Affinity" */;
+			buildPhases = (
+				DACCACA91464A150000664E3 /* Sources */,
+				DACCACAA1464A150000664E3 /* Frameworks */,
+				DACCACAB1464A150000664E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Network Affinity";
+			productName = "Network Affinity";
+			productReference = DACCACAD1464A150000664E3 /* Network Affinity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DACCACA41464A150000664E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "DailyBooth, Inc.";
+			};
+			buildConfigurationList = DACCACA71464A150000664E3 /* Build configuration list for PBXProject "Network Affinity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DACCACA21464A150000664E3;
+			productRefGroup = DACCACAE1464A150000664E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DACCACAC1464A150000664E3 /* Network Affinity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DACCACAB1464A150000664E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACCACBC1464A150000664E3 /* InfoPlist.strings in Resources */,
+				DA3DE8AD167687270086FF39 /* Default-568h@2x.png in Resources */,
+				DA3DE8B0167687830086FF39 /* Default@2x~iphone.png in Resources */,
+				DA3DE8B1167687830086FF39 /* Default~iphone.png in Resources */,
+				DA3DE8B3167689B60086FF39 /* Network Affinity.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DACCACA91464A150000664E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACCACBE1464A150000664E3 /* main.m in Sources */,
+				DACCACC21464A150000664E3 /* DHAppDelegate.m in Sources */,
+				DACCACD31464A2BB000664E3 /* DHNARootController.m in Sources */,
+				DACCACD61464A3F6000664E3 /* DHNAListController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DACCACBA1464A150000664E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DACCACBB1464A150000664E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DACCACC31464A150000664E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DACCACC41464A150000664E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DACCACC61464A150000664E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Network Affinity/Network Affinity-Prefix.pch";
+				INFOPLIST_FILE = "Network Affinity/Network Affinity-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DACCACC71464A150000664E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Network Affinity/Network Affinity-Prefix.pch";
+				INFOPLIST_FILE = "Network Affinity/Network Affinity-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DACCACA71464A150000664E3 /* Build configuration list for PBXProject "Network Affinity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACCACC31464A150000664E3 /* Debug */,
+				DACCACC41464A150000664E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DACCACC51464A150000664E3 /* Build configuration list for PBXNativeTarget "Network Affinity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACCACC61464A150000664E3 /* Debug */,
+				DACCACC71464A150000664E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DACCACA41464A150000664E3 /* Project object */;
+}
