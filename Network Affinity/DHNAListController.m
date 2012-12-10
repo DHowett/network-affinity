@@ -62,6 +62,7 @@ extern CFStringRef kCTRegistrationRATSelection7; // Automatic
     } else if([r1 isEqualToString:(id)kCTRegistrationRATSelection7]) {
         x = 7;
     }
+    free(wtf);
     return [NSNumber numberWithInt:x];
 }
 
@@ -98,5 +99,6 @@ extern CFStringRef kCTRegistrationRATSelection7; // Automatic
     }
     void *co = _CTServerConnectionCreate(kCFAllocatorDefault, callback, wtf);
     _CTServerConnectionSetRATSelection(co, co, r1, r2);
+    free(wtf);
 }
 @end
